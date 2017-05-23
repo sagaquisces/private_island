@@ -16,6 +16,7 @@ ul {
   list-style-type: none;
   text-align: center;
   font-size: 36px;
+  font-family: Helvetica, sans-serif;
 }
 
 ul a {
@@ -25,4 +26,36 @@ ul a {
 
 #active_page {
   color: white;
+}
+
+img {
+  height: 200px;
+}
+
+div.photo_reel {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+h2 {
+  font-family: Helvetica, sans-serif;
+  font-size: 36px;
+  color: grey;
+  text-shadow: 2px 2px black;
+}
+
+p {
+  background: #CCC;
+  filter: alpha(opacity=60);
+  /* IE */
+  -moz-opacity: 0.6;
+  /* Mozilla */
+  opacity: 0.6;
+  /* CSS3 */
+  font-family: Trebuchet MS, sans-serif;
+  font-size: 24px;
 }
