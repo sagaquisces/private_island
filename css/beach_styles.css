@@ -13,5 +13,16 @@ h1 {
 }
 
 ul {
-  
+  list-style-type: none;
+  text-align: center;
+  font-size: 36px;
+}
+
+ul a {
+  color: coral;
+  text-decoration: none;
+}
+
+#active_page {
+  color: white;
 }
